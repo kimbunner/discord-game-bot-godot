@@ -1,0 +1,43 @@
+{
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "default_items": [
+        {
+            "id": "sword_basic",
+            "name": "Basic Sword",
+            "type": "weapon",
+            "value": 100,
+            "description": "A basic sword for beginners"
+        },
+        {
+            "id": "shield_basic",
+            "name": "Basic Shield",
+            "type": "armor",
+            "value": 50,
+            "description": "A basic shield for protection"
+        },
+        {
+            "id": "health_potion",
+            "name": "Health Potion",
+            "type": "consumable",
+            "value": 25,
+            "description": "Restores 25 HP when used"
+        }
+    ],
+    "starter_items": ["sword_basic"],
+    "redeem_codes": [
+        {
+            "code": "WELCOME2024",
+            "reward_type": "currency",
+            "reward_value": 1000,
+            "uses_left": -1,
+            "expiry_date": "2024-12-31"
+        },
+        {
+            "code": "SHIELD4FREE",
+            "reward_type": "item",
+            "reward_item_id": "shield_basic",
+            "uses_left": 100,
+            "expiry_date": "2024-12-31"
+        }
+    ]
+}
